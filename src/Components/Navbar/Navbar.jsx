@@ -15,7 +15,7 @@ const openMenu = () => {
     menuRef.current.style.right="0";
 }
 const closeMenu = () => {
-    menuRef.current.style.right="-350px";
+    menuRef.current.style.right="-100vw";
 }
 
     return (
@@ -37,5 +37,4 @@ const closeMenu = () => {
 };
 
 export default Navbar;
-
 

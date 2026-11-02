@@ -39,7 +39,7 @@ const onSubmit = async (event) => {
             <div className="contact-section">
                 <div className="contact-left">
                     <h1>Let's talk</h1>
-                    <p>I'm currently avalible to take on a new projects, so feel free to send me a message about anything that you wantme to work on. You can contact anytime.</p>
+                    <p>I’m learning web development and always happy to connect with fellow developers, learn about opportunities, or talk about technology.</p>
                     <div className="contact-details">
                         <div className="contact-detail">
                             <img src={mail_icon} alt="" /> <p>Shahrozafzal@gmail.com</p>

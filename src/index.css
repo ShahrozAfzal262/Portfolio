@@ -1,15 +1,15 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap'); */
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box;
-  font-family: "Outfit", sans-serif; */
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
+  overflow-x: hidden;
   background: #161513;
   color: white;
+  font-family: Outfit, Arial, sans-serif;
 }
-

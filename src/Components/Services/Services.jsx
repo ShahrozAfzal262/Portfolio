@@ -2,13 +2,12 @@ import React from 'react'
 import './Services.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
 import Services_Data from '../../assets/services_data'
-import arrow_icon from '../../assets/arrow_icon.svg'
 
 const Services = () => {
   return (
     <div id='services' className='services'>
       <div className="services-title">
-        <h1>My Services</h1>
+        <h1>What I’m Learning</h1>
         <img src={theme_pattern} alt="" />
       </div>
 
@@ -20,10 +19,6 @@ const Services = () => {
               <h2>{service.s_name}</h2>
               <p>{service.s_desc}</p>
 
-              <div className='services-readmore'>
-                <p>Read More</p>
-                <img src={arrow_icon} alt="" />
-              </div>
             </div>
           )
         })}
@@ -33,4 +28,3 @@ const Services = () => {
 }
 
 export default Services
-

@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/profile img.jpeg'
+import profile_img from '../../assets/profile-photo.png'
 
 
 const About = () => {
@@ -13,36 +13,21 @@ const About = () => {
             </div>
             <div className='about-sections'>
                 <div className='about-left'>
-                    <img src={profile_img} alt="" />
+                    <img src={profile_img} alt="Shahroz Afzal" />
                 </div>
                 <div className='about-right'>
                     <div className='about-para'>
-                        <p>I am an experienced frontend Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
-                        <p>My passion for frontend development is not only reflected in my experience but also in the enthusiasm and dedication I bring to each project.</p>
+                        <p>I’m at the beginning of my web development journey and currently learning the MERN stack: MongoDB, Express.js, React, and Node.js.</p>
+                        <p>I enjoy learning by building and improving projects, and I’m looking forward to growing my skills through hands-on practice.</p>
                     </div>
                     <div className="about-skills">
-                    <div className="about-skill"> <p>HTML & CSS</p> <hr style={{width:"50%"}}/> </div>
-                    <div className="about-skill"> <p>JavaScript</p> <hr style={{width:"90%"}}/> </div>
-                    <div className="about-skill"> <p>React Js</p> <hr style={{width:"60%"}}/> </div>
-                    <div className="about-skill"> <p>MongoDB</p> <hr style={{width:"50%"}}/> </div>
-
+                        <div className="about-skill"><p>HTML & CSS</p></div>
+                        <div className="about-skill"><p>JavaScript</p></div>
+                        <div className="about-skill"><p>React</p></div>
+                        <div className="about-skill"><p>Node.js</p></div>
+                        <div className="about-skill"><p>Express.js</p></div>
+                        <div className="about-skill"><p>MongoDB</p></div>
                     </div>
-                </div>
-            </div>
-            <div className="about-achievements">
-                <div className="about-achievement">
-                    <h1>10+</h1>
-                    <p>YEARS OF EXPERIENCE</p>
-                </div>
-                <hr />
-                <div className="about-achievement">
-                    <h1>90+</h1>
-                    <p>PROJECTS COMPLETED</p>
-                </div>
-                <hr />
-                <div className="about-achievement">
-                    <h1>15+</h1>
-                    <p>HAPPY CLIENTS</p>
                 </div>
             </div>
         </div>

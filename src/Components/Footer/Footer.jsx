@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import footer_logo from '../../assets/footer_logo.svg'
-import user_icon from '../../assets/user_icon.svg'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Footer = () => {
     return (
@@ -9,14 +9,10 @@ const Footer = () => {
             <div className="footer-top">
                 <div className="footer-top-left">
                     <img src={footer_logo} alt="" />
-                    <p>I'm a fronted developer from, USA with 4 years of experience in companies like Microsoft, Tesla and Apple.</p>
+                    <p>I’m learning to build full-stack web applications with the MERN stack and growing my skills through practice.</p>
                 </div>
                 <div className="footer-top-right">
-                    <div className="footer-email-input">
-                        <img src={user_icon} alt="" />
-                        <input type="email" placeholder='Enter your email' />
-                    </div>
-                    <div className="footer-subscribe">Subscribe</div>
+                    <AnchorLink className="footer-contact-link anchor-link" offset={50} href="#contact">Get in touch</AnchorLink>
                 </div>
             </div>
             <hr />
